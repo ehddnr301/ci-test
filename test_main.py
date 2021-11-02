@@ -4,7 +4,7 @@ import main
 
 class MainTest(unittest.TestCase):
     def test_hello_world(self):
-        ret = main.hello_world("test")
+        ret = main.hello_world("test1")
         self.assertEqual(ret, "test1")
 
 
